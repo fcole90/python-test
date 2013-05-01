@@ -8,7 +8,6 @@ def fattoriale(n):
         return 1
     elif n==1:
         return 1
-    
     else:
         fattorialeNMenoUno = fattoriale(n-1)
         result = n * fattorialeNMenoUno
